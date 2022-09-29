@@ -1,0 +1,11 @@
+name: takara_tagseq_umi
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - python=3
+    - samtools
+    - fgbio
+    - bwa
+    - gatk4
+    - trimmomatic

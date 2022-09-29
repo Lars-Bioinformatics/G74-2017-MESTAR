@@ -1,0 +1,10 @@
+name: sequenza
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - python=3
+    - samtools
+    - r-base
+    - r-sequenza
+    - sequenza-utils

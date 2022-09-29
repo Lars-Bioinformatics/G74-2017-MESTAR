@@ -1,0 +1,4 @@
+jobs: 999
+cluster: "sbatch --mem={resources.mem_mb} -c {resources.cpus} --output logs/{rule}.%A.out"
+default-resources: [cpus=1, mem_mb=6000]
+keep-going: True
